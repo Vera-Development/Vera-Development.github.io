@@ -18,22 +18,22 @@ a {
 .right { 
 	position:fixed; 
   width: auto;
-  
+
 	top:20px; 
 	right:25px; 
-  
+
 } 
 .nextto{
   display: inline-block;
   width: 100px;
   position: absolute; right: 40px;
-  
+
 }
 .nextto2{
   display: inline-block;
   width: 100%;
   position: absolute; right: 50px;
-  
+
 }
 a:hover{
   color: #ff7b00;
@@ -54,6 +54,7 @@ a:hover{
   background-color: #202225;
 }
 
+
 /* font & text styles */
 .lead{
 @ -39,36 +75,44 @@
@@ -71,6 +72,7 @@ h5{
   color: rgb(255, 255, 255);
   font-size: 20px;
 }
+
 
 h3{
   color: white;
