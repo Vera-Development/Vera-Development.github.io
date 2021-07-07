@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
- 
+  <div id="logo"> 
+    <h3>
+      <img src='https://cdn.discordapp.com/attachments/859480951339089941/862432891505344532/vera-rounded.png' alt='Vera' width='50px' height='50px'> 
+    </h3>
+   </div> 
+   <div class="right"> 
+    <div class='nextto'><h5>vera-bot</h5></div>
+    <div class='nextto2'><h4>.xyz</h4></div>
+  </div> 
 <head>
-  <meta http-equiv="refresh" content="0; URL=https://discord.com/oauth2/authorize?client_id=828977727587614831&permissions=8&scope=bot" />
+  <meta http-equiv="refresh" content="1; URL=https://discord.com/oauth2/authorize?client_id=828977727587614831&permissions=8&scope=bot" />
   <meta property="og:site_name" content="Vera Alpha" />
   <meta property="og:title" content="Invite Vera to your server"/>
   <meta property="og:type" content="website" />
@@ -35,7 +43,45 @@
   <!-- Custom  css3 styles -->
   <link rel="stylesheet" href="style.css">
 </head>
+<h3 class="masthead-brand">Opening OAuth2
 
+</h3>
 <body>
-  <canvas class="background"></canvas>
+  <!-- CANVAS CLASS & CDN FOR particles.js -->
+    <canvas class="background2"></canvas>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+    <script src="path/to/particles.min.js"></script>
+      <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+      <script src="../../assets/js/vendor/popper.min.js"></script>
+      <script src="../../dist/js/bootstrap.min.js"></script>
+  <!-- Particle Script -->
+    <script>
+      var particles = Particles.init({
+        selector: ".background2",
+        color: [
+          "#ffffff",//blue
+          "#5865f2",//white
+          "#ffffff", //pale blue
+          "#5865f2",//yellow
+          "#ffffff"//florescent green
+        ],
+        sizeVaritions: 2,
+        maxParticles: 100,
+        connectParticles: false,
+        responsive: [
+          {
+            breakpoint: 0,
+            options: {
+              color: "#ff57ef",
+              maxParticles: 10,
+              connectParticles: false
+            }
+          }
+        ]
+      });
+    </script>
 </html>
