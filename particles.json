@@ -20,7 +20,7 @@
       "value":0.5,
       "random":true,
       "anim":{
-        "enable":false,
+        "enable":true,
         "speed":1
       }
     },
@@ -28,7 +28,7 @@
       "value": 5,
       "random":false,
       "anim":{
-        "enable": false,
+        "enable": true,
         "speed":30
       }
     },
