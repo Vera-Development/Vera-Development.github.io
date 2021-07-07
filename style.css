@@ -1,0 +1,73 @@
+/* body html and anchor styles */
+
+html, body { 
+  height: 100%; 
+  font-family: 'Roboto Mono', cursive !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: rgb(245, 119, 119);
+  font-size: 20px;
+}
+a:hover{
+  color: #ff7b00;
+  text-decoration: none;
+}
+body {
+  display: flex;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  justify-content: center;
+ 
+ }
+
+/* BACKGROUND & DISPLAY */
+.background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+/* font & text styles */
+.lead{
+  color: white;
+}
+
+p{
+  color: white;
+  font-size: 20px;
+}
+
+h3{
+  color: white;
+}
+
+*{
+  align-items: center;
+  text-align: center;
+  
+}
+
+
+/*fa fa icons*/
+
+.icons-social i{
+  padding: 10px;
+  font-size: 40px;
+}
+
+.icons-social a{
+  margin: 9px;
+  color: rgb(255, 79, 59);
+}
+
+.icons-social a:hover{
+  color: #ff7b00;
+  text-decoration: none !important;
+  
+}
