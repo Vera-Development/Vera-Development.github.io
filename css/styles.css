@@ -11,6 +11,11 @@ a:focus,
 a:hover {
   color: #fff;
 }
+b,
+b:focus,
+b:hover {
+  color: #fff;
+}
 
 
 /* Custom default button */
@@ -111,6 +116,10 @@ h3{
 }
 
 a:hover {
+  color: #ff642b;
+  opacity: 0.7;
+}
+b:hover {
   color: #ff642b;
   opacity: 0.7;
 }
